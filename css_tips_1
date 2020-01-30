@@ -1,0 +1,54 @@
+<style>
+
+ .p1{
+      background-color:blue;
+      width: min-content;
+      
+   }
+   
+   .my-div{
+    
+     border: 1px solid red;
+     height:300px;
+     overflow:auto;
+     
+     
+    }
+    
+    
+    .inner-1{
+      
+      border: 5px solid blue;
+      width:300px;
+      height:500px;
+      overflow:hidden;
+     
+      
+    }
+    
+    .inner-2{
+      
+      border: 3px solid green;
+      width:300px;
+      height:200px;
+      
+    }
+    
+
+    .inner-3{
+      
+      border: 2px solid yellow;
+      width:300px;
+      height:1000px;
+      
+    }
+
+</style>
+<div class="my-div">
+
+  <div class="inner-1">
+    <div class="inner-3"></div>
+  </div>
+  <div class="inner-2"> </div>
+  
+</div>
